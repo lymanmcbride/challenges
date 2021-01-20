@@ -29,3 +29,6 @@ def change_nums(phrase):
 
 
 main()
+
+#Is there a way to do this without first declaring the alphabet?
+#if I were to do this again I would use a dictionary instead of a list in order to lower the Big O runtime
