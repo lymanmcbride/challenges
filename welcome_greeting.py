@@ -1,7 +1,8 @@
 #  Version:     3.9.1
 #  Name:        Lyman McBride
 #  Date:        January 26, 2021
-#  Purpose:     Weekly coding challenge. For this one I did have to look up the all() method. Very handy!
+#  Purpose:     Weekly coding challenge. This one is a bit more of a program
+#               asking for user input and allowing them to interact with the database
 
 import sqlite3
 
