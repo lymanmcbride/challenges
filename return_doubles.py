@@ -9,8 +9,7 @@
 
 
 def main_function():
-    input_string = input("Please type in any string\n").lower()
-    string = input_string.lower()
+    string = input("Please type in any string\n").lower()
     letters = []
     doubles = []
     for letter in string:
