@@ -11,7 +11,7 @@ def topThreeWords(string):
     # Line 14 has a lot going on. It starts with regex code, which gets rid of all the punctuation, 
     # then it runs two string methods to clean, including .split() which splits along spaces. It automatically 
     # gets rid of the extra space. 
-    string_cleaner = re.sub(r'[^\w\s]', '', string).lower().split()
+    string_cleaner = re.sub(r'[^\w\s|\']', '', string).lower().split()
     words = []
     occurrences = []
     for word in string_cleaner:
@@ -25,7 +25,7 @@ def topThreeWords(string):
     results = []
     for t in top_3_tuples:
         results.append(t[1])
-    print(results)
+    print(results) # I need to add a way to control for if there's only an apostrophe in the string
     # The challenge asked for the program to return a list, however the below code
     # is a much better formatted way of returning the results. 
     # counter = 1
@@ -34,4 +34,4 @@ def topThreeWords(string):
     #     print("{}. {}".format(counter, word[1]))
     #     counter += 1
 
-topThreeWords("I   I        love to sang sang I !?!")
+topThreeWords("I   I        love's love's love's to sang sang I !?!")
