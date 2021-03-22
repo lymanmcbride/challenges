@@ -1,0 +1,7 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\bin\Debug\MoveZeros.exe.config
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\bin\Debug\MoveZeros.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\bin\Debug\MoveZeros.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\obj\Debug\MoveZeros.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\obj\Debug\MoveZeros.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\obj\Debug\MoveZeros.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\MoveZeros\MoveZeros\obj\Debug\MoveZeros.pdb
