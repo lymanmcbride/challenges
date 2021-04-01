@@ -8,6 +8,7 @@
 #                         at least once.
 
 abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+abcd = 'abcdefghijklmnopqrstuvwxyz'
 def pangram(string, abc):
     lString = string.lower()
     if all(letter in lString for letter in abc) == True:
@@ -15,6 +16,6 @@ def pangram(string, abc):
     else:
         print("It's not a pangram!")
 
-string = "The uick brown fox jumps over the lazy dog"
+string = "The five boxing wizards jump quickly"
 
-pangram(string, abc)
+pangram(string, abcd)

@@ -1,3 +1,11 @@
+#    Coding Challenge:    Return a list of averages
+#    By:                  Lyman McBride
+#    Date:                2/8/2021
+
+#    Purpose:             Made for the wednesday coding challenge at The Tech Academy,
+#                         this program returns a list of the averages of each value and its neighbor on the right
+#                         of a given list. 
+
 def average(array):
     new_array = []
     last_i = (len(array) - 1)

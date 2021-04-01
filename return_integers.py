@@ -4,7 +4,7 @@
 
 #    Purpose:             Made for the wednesday coding challenge at The Tech Academy,
 #                         this program takes a list of numbers as strings and makes them 
-#                         a list of integers.
+#                         a list of integers. The function should be done in one line.
 
 nums = lambda strings : [int(num) for num in strings]
 

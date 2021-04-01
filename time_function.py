@@ -17,4 +17,4 @@ def time(seconds):
         seconds = '%02d' % seconds
         print("{}:{}:{}".format(hours, minutes, seconds))
 
-time(4200)
+time(356254)
