@@ -1,0 +1,7 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\bin\Debug\Rearrange.exe.config
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\bin\Debug\Rearrange.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\bin\Debug\Rearrange.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\obj\Debug\Rearrange.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\obj\Debug\Rearrange.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\obj\Debug\Rearrange.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Rearrange\Rearrange\obj\Debug\Rearrange.pdb
