@@ -25,11 +25,11 @@ def sortSentence(sentence):
             lowercase.append(word)
 
     lowercase.sort()
-    uppercase.sort()
+    uppercase.sort(reverse = True)
     sortedArray = lowercase + uppercase
     sortedsentence = ""
     for word in sortedArray:
         sortedsentence += word + " "
     print(sortedsentence)
-    
+
 main()
