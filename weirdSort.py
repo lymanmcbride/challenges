@@ -10,7 +10,7 @@
 import re
 
 def main():
-    sentence = input("Please enter any sentence")
+    sentence = input("Please enter any sentence\n")
     stringCleaner = re.sub(r'[^\w\s]', '', sentence)
     sortSentence(stringCleaner)
 

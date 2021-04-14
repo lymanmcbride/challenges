@@ -1,6 +1,6 @@
 #    Coding Challenge:    Return a list of integers
 #    By:                  Lyman McBride
-#    Date:                1/9/2021
+#    Date:                3/9/2021
 
 #    Purpose:             Made for the wednesday coding challenge at The Tech Academy,
 #                         this program takes a list of numbers as strings and makes them 

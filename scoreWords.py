@@ -21,4 +21,4 @@ def scoreWords(string):
     print(highWord)
     print(highScore)
 
-scoreWords("apples are waxy")
+scoreWords("apples xawy are waxy")

@@ -1,6 +1,6 @@
 #    Coding Challenge:    Top three Words
 #    By:                  Lyman McBride
-#    Date:                1/9/2021
+#    Date:                3/9/2021
 
 #    Purpose:             Made for the wednesday coding challenge at The Tech Academy,
 #                         this program takes a string of text and returns an array of the 
@@ -11,7 +11,7 @@ def topThreeWords(string):
     # Line 14 has a lot going on. It starts with regex code, which gets rid of all the punctuation, 
     # then it runs two string methods to clean, including .split() which splits along spaces. It automatically 
     # gets rid of the extra space. 
-    string_cleaner = re.sub(r'[^\w\s|\']', '', string).lower().split()
+    string_cleaner = re.sub(r'[^\w\s\']', '', string).lower().split()
     words = []
     occurrences = []
     for word in string_cleaner:

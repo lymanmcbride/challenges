@@ -9,7 +9,10 @@
 import re
 
 def hashtag(string):
-    return False if len(string) > 140 or string == "" else "#" + re.sub(r'[^\w\s]', '', string).title().replace(" ", "") 
+    return False if len(re.sub(r'[^\w\s]', '', string).replace(" ", "")) > 140 or string == "" else "#" + re.sub(r'[^\w\s]', '', string).title().replace(" ", "") 
+    # First attempt at doing a challenge all in one line. This is really wacky, here's what it does:
+    # return false if it's longer than 140 characters or is an empty string, otherwise make a new string that starts with #, plus regex for substituting 
+    # out the punctuation from the imput string, make every word capitalized, and replace spaces with nothing.
 
 print(hashtag("This,.';\"'' is a roundtable coding challenge!"))
 print(hashtag(""))

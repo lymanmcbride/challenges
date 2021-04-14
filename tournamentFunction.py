@@ -29,4 +29,5 @@ def tournament(array):
         
     return final_lineUp
 
+#you should also try it with recursion
 print(tournament([9,5,4,7,6, 5,3,8,2]))
