@@ -1,0 +1,16 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.deps.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.runtimeconfig.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.runtimeconfig.dev.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\ref\camelCaseChallenge.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\bin\Debug\net5.0\camelCaseChallenge.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.AssemblyInfoInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.AssemblyInfo.cs
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\ref\camelCaseChallenge.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\camelCaseChallenge\camelCaseChallenge\obj\Debug\net5.0\camelCaseChallenge.genruntimeconfig.cache

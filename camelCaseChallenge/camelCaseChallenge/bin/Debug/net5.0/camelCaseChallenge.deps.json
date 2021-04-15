@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "camelCaseChallenge/1.0.0": {
+        "runtime": {
+          "camelCaseChallenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "camelCaseChallenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
