@@ -1,0 +1,7 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\bin\Debug\BitCounting.exe.config
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\bin\Debug\BitCounting.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\bin\Debug\BitCounting.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\obj\Debug\BitCounting.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\obj\Debug\BitCounting.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\obj\Debug\BitCounting.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\BitCounting\BitCounting\obj\Debug\BitCounting.pdb
