@@ -34,7 +34,7 @@ def reverseArray(array):
             array[secondIndex] = temp
             secondIndex -= 1
         else:
-            continue
+            break
     return array
 
 print(reverseArray([1,2,3,4]))
