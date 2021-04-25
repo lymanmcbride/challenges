@@ -35,4 +35,3 @@ def powerOfTwo(num):
 
 
 print(powerOfTwo(1427247692705959881058285969449495136382746624))
-#take an integer and tell me if it is a power of 2
