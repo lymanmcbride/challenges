@@ -33,5 +33,10 @@ def powerOfTwo(num):
         return True
     return powerOfTwo(num/2)
 
+def two(num):
+    while num>2:
+        num = num/2
+    return True if num == 2 else False
 
 print(powerOfTwo(1427247692705959881058285969449495136382746624))
+print(two(1427247692705959881058285969449495136382746624))
