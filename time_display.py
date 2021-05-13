@@ -1,3 +1,13 @@
+#    Coding Challenge:    Return a formatted time stamp
+#    By:                  Lyman McBride
+#    Date:                5/13/2021
+
+#    Purpose:             4ku kata on codewars. Takes an int representing number of seconds, returns 
+#                         formatted "years, days, hours, seconds etc." if 0, it's not displayed (no 0 hours, 12 minutes)
+#                         no oxford comma, and there's an "and" before the last element.
+# 
+#    Runtime:             O(N)
+
 
 def format_duration(seconds):
     #special case:
