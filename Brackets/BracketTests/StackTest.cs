@@ -48,5 +48,21 @@ namespace BracketTests
             bool T = true;
             Assert.AreEqual(T, Program.TestBrackets(brackets));
         }
+
+        [TestMethod]
+        public void TestMethod7()
+        {
+            string brackets = "{([})]";
+            bool F = false;
+            Assert.AreEqual(F, Program.TestBrackets(brackets));
+        }
+
+        [TestMethod]
+        public void TestMethod8()
+        {
+            string brackets = "(){";
+            bool F = false;
+            Assert.AreEqual(F, Program.TestBrackets(brackets));
+        }
     }
 }

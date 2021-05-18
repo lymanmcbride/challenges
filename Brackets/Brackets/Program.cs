@@ -32,6 +32,7 @@ namespace Brackets
             Console.ReadLine();
         }
 
+
         public static bool TestBrackets(string brackets)
         {
             string completeBrackets = "{}()";
