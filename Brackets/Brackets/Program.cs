@@ -35,8 +35,8 @@ namespace Brackets
 
         public static bool TestBrackets(string brackets)
         {
-            string completeBrackets = "{}()";
-            string openBrackets = "{(";
+            string completeBrackets = "{}()[]";
+            string openBrackets = "{([";
             //using a stack to track open brackets
             var stack = new Stack<char>();
             foreach (char bracket in brackets)
