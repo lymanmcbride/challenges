@@ -50,13 +50,14 @@ namespace Brackets
                 else if (completeBrackets.Contains(bracket))
                 {
                     //checks first for stack empty,
-                    //then whether matching it with the first item on the stack makes a complete bracket
+                    //then whether matching it with the first item on the stack doesn't make a complete bracket
                     if (stack.Count == 0 || !completeBrackets.Contains($"{stack.Pop()}{bracket}"))
                     {
                         return false;
                     }
                 }
             }
+            // return true if stack is empty, otherwise false because there are open hanging brackets
             return true ? stack.Count == 0 : false;
         }
 
@@ -71,13 +72,13 @@ namespace Brackets
                 //if close bracket
                 else if (bracket == '}')
                 {
-                    //checks first for if open bracket available, then subtracts from it.
+                    //checks first for if open bracket available
                     if (openBrackets == 0) { return false; }
-                    openBrackets -= 1;
+                    openBrackets -= 1; //subtract one from hanging open brackets count
                 }
             }
 
-            //if arrive back to 0, the brackets match up
+            //if arrive back to 0, all the brackets match up
             return true ? openBrackets == 0 : false;
         }
     }

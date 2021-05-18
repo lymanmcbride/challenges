@@ -9,8 +9,11 @@ namespace BracketTests
         [TestMethod]
         public void TestMethod1()
         {
+            //test case
             string brackets = "{akls{()()zyx}";
+            //expected outcome
             bool F = false;
+            //test
             Assert.AreEqual(F, Program.TestBracketsSimple(brackets));
         }
         [TestMethod]
