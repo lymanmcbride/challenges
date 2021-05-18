@@ -16,28 +16,28 @@ namespace BracketTests
         [TestMethod]
         public void TestMethod2()
         {
-            string brackets = "{}";
+            string brackets = "{()}";
             bool T = true;
             Assert.AreEqual(T, Program.TestBrackets(brackets));
         }
         [TestMethod]
         public void TestMethod3()
         {
-            string brackets = "}{";
+            string brackets = "}{(";
             bool F = false;
             Assert.AreEqual(F, Program.TestBrackets(brackets));
         }
         [TestMethod]
         public void TestMethod4()
         {
-            string brackets = "{{}";
+            string brackets = "{{})";
             bool F = false;
             Assert.AreEqual(F, Program.TestBrackets(brackets));
         }
         [TestMethod]
         public void TestMethod5()
         {
-            string brackets = "{}}";
+            string brackets = "({}}";
             bool F = false;
             Assert.AreEqual(F, Program.TestBrackets(brackets));
         }
