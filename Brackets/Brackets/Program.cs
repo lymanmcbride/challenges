@@ -10,9 +10,9 @@ namespace Brackets
         {
             //test cases
             string test1 = "{akls{()()zyx}";
-            string test2 = "{}";
-            string test3 = "}{";
-            string test4 = "{{}";
+            string test2 = "{()}";
+            string test3 = "}{)";
+            string test4 = "{{}()";
             string test5 = "\"";
 
             //write out test cases to view clearly on console
@@ -34,28 +34,29 @@ namespace Brackets
 
         public static bool TestBrackets(string brackets)
         {
-            string completeBrackets = "{}";
+            string completeBrackets = "{}()";
+            string openBrackets = "{(";
             //using a stack to track open brackets
             var stack = new Stack<char>();
             foreach (char bracket in brackets)
             {
                 //if open bracket
-                if (bracket == completeBrackets[0])
+                if (openBrackets.Contains(bracket))
                 {
                     stack.Push(bracket);
                 }
                 //if close bracket
-                else if (bracket == completeBrackets[1])
+                else if (completeBrackets.Contains(bracket))
                 {
-                    //checks first for stack empty, then whether the first item on stack makes a complete bracket
-                    if (stack.Count == 0 || $"{stack.Pop()}{bracket}" != completeBrackets)
+                    //checks first for stack empty,
+                    //then whether matching it with the first item on the stack makes a complete bracket
+                    if (stack.Count == 0 || !completeBrackets.Contains($"{stack.Pop()}{bracket}"))
                     {
                         return false;
                     }
                 }
             }
-            if (stack.Count == 0) { return true; }
-            else { return false; }
+            return true ? stack.Count == 0 : false;
         }
 
         public static bool TestBracketsSimple(string brackets)
