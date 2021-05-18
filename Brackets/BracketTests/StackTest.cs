@@ -4,7 +4,7 @@ using Brackets;
 namespace BracketTests
 {
     [TestClass]
-    public class TestingBrackets
+    public class StackTest
     {
         [TestMethod]
         public void TestMethod1()
