@@ -18,11 +18,11 @@ namespace Brackets
             //write out test cases to view clearly on console
             Console.WriteLine("Testing using Stack Structure:");
             Console.WriteLine("{akls{()()zyx} should be False: " + $"{Program.TestBrackets(test1)}");
-            Console.WriteLine("{} should be True: " + $"{Program.TestBrackets(test2)}");
-            Console.WriteLine("}{ should be False: " + $"{Program.TestBrackets(test3)}");
-            Console.WriteLine("{{} should be False: " + $"{Program.TestBrackets(test4)}");
-            Console.WriteLine("\" should be True: " + $"{Program.TestBrackets(test5)}");
-            Console.ReadLine();
+            Console.WriteLine("{()} should be True: " + $"{Program.TestBrackets(test2)}");
+            Console.WriteLine("}{) should be False: " + $"{Program.TestBrackets(test3)}");
+            Console.WriteLine("{{}() should be False: " + $"{Program.TestBrackets(test4)}");
+            Console.WriteLine("\" should be True: " + $"{Program.TestBrackets(test5)}\n");
+
             Console.WriteLine("Testing using just int counter:");
             Console.WriteLine("{akls{()()zyx} should be False: " + $"{Program.TestBracketsSimple(test1)}");
             Console.WriteLine("{} should be True: " + $"{Program.TestBracketsSimple(test2)}");
