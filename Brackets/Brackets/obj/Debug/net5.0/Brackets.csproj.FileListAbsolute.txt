@@ -1,0 +1,16 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.deps.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.runtimeconfig.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.runtimeconfig.dev.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\ref\Brackets.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\bin\Debug\net5.0\Brackets.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.AssemblyInfoInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.AssemblyInfo.cs
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\ref\Brackets.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Brackets\Brackets\obj\Debug\net5.0\Brackets.genruntimeconfig.cache
