@@ -23,6 +23,21 @@ def pigLatin(string):
 
 print(pigLatin("I Love, always and forever, to code!"))
 
+## Handles spaces inbetween punctuation
+def pig_it(text):
+    #your code here
+    text_array = text.split()
+    return_array = []
+    for word in text_array:
+        if word.isalpha():
+            return_array.append(word[1:] + word[0] + "ay")
+        else:
+            return_array.append(word[1:len(word)-1] + word[0] + "ay" + word[-1])
+    return " ".join(return_array)
+    
+
+print(pig_it("I love to code!"))
+
 
 
 def reverseArray(array):
