@@ -5,7 +5,7 @@
 #    Purpose:             4ku kata on codewars. Takes a multi-dimensional array (square matrix) and sorts it
 #                         by going in a clock-wise spiral.
 # 
-#    Runtime:             ?
+#    Runtime:             O(N)?
 
 def snail(snail_map):
     return_array = []
