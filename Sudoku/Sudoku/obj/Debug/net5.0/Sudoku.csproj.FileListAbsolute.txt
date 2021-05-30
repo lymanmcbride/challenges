@@ -1,0 +1,16 @@
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.exe
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.deps.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.runtimeconfig.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.runtimeconfig.dev.json
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\ref\Sudoku.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\bin\Debug\net5.0\Sudoku.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.csprojAssemblyReference.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.AssemblyInfoInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.AssemblyInfo.cs
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\ref\Sudoku.dll
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.pdb
+C:\Users\Lyman\Desktop\coding\portfolio_pieces\challenges\Sudoku\Sudoku\obj\Debug\net5.0\Sudoku.genruntimeconfig.cache
