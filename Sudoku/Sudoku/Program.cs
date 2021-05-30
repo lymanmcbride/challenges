@@ -74,16 +74,13 @@ namespace Sudoku
 
             //Validate SubGrids
             bool sub = true;
-            sub = ValidateSubGrid(board, 0, 0);
-            if (sub == true) { sub = ValidateSubGrid(board, 3, 0); }
-            if (sub == true) { sub = ValidateSubGrid(board, 6, 0); }
-            if (sub == true) { sub = ValidateSubGrid(board, 0, 3); }
-            if (sub == true) { sub = ValidateSubGrid(board, 3, 3); }
-            if (sub == true) { sub = ValidateSubGrid(board, 6, 3); }
-            if (sub == true) { sub = ValidateSubGrid(board, 0, 6); }
-            if (sub == true) { sub = ValidateSubGrid(board, 3, 6); }
-            if (sub == true) { sub = ValidateSubGrid(board, 6, 6); }
-
+            for (int i = 0; i < 7; i += 3)
+            {
+                for (int j = 0; j < 7; j += 3)
+                {
+                    if (sub == true) { sub = ValidateSubGrid(board, i, j); }
+                }
+            }
             return sub;
         }
         private static bool ValidateSubGrid(int[][] board, int startX, int startY)
