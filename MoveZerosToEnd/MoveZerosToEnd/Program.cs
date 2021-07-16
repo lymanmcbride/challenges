@@ -9,7 +9,27 @@ namespace MoveZerosToEnd
     {
         public static int[] MoveZeroes(int[] arr)
         {
-            
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == 0)
+                {
+                    int temp = arr[i];
+                    if (arr.Length > 0)
+                    {
+                        int indexToReplace = arr.Length - 1;
+                        while (arr[indexToReplace] == 0)
+                        {
+                            indexToReplace -= 1;
+                        }
+
+                        if (i < indexToReplace)
+                        {
+                            arr[i] = arr[indexToReplace];
+                            arr[indexToReplace] = temp;
+                        }
+                    }
+                } 
+            }
             return arr;
         }
     }
