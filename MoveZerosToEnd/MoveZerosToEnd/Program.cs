@@ -7,6 +7,10 @@ namespace MoveZerosToEnd
 {
     public static class Kata
     {
+        static void Main(string[] args)
+        {
+        }
+
         public static int[] MoveZeroes(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -20,6 +24,10 @@ namespace MoveZerosToEnd
                         while (arr[indexToReplace] == 0)
                         {
                             indexToReplace -= 1;
+                            if (indexToReplace <= 0)
+                            {
+                                break;
+                            }
                         }
 
                         if (i < indexToReplace)
