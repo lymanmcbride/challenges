@@ -5,7 +5,7 @@
 // Kata.MoveZeroes(new int[] {1, 2, 0, 1, 0, 1, 0, 3, 0, 1}) => new int[] {1, 2, 1, 1, 3, 1, 0, 0, 0, 0}
 namespace MoveZerosToEnd
 {
-    class Kata
+    public static class Kata
     {
         public static int[] MoveZeroes(int[] arr)
         {

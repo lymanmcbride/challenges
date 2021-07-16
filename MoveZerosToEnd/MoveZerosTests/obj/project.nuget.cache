@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TmMk5U2LrXZt6VxVTi/NLv0sVWWp9ABdGFRv2vtJ0REqVj3bJle0MW2mliKj2n3UbCtT9aAncvwu+vnnaztmlA==",
+  "dgSpecHash": "75w/CzLDrizayLIMfUqEBgJF9+vVcaCHpJhFyQrr9GDN2bpgY3Oeozwt/It0SPjDk04TYgm1zOtvzB098Br8PA==",
   "success": true,
   "projectFilePath": "/Users/lymanmcbride/OtherCodingProjects/challenges/MoveZerosToEnd/MoveZerosTests/MoveZerosTests.csproj",
   "expectedPackageFiles": [

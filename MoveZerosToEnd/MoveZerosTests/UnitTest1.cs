@@ -1,5 +1,5 @@
-using NUnit.Framework;
 using MoveZerosToEnd;
+using NUnit.Framework;
 
 namespace MoveZerosTests
 {
