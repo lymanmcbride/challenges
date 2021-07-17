@@ -20,21 +20,13 @@ namespace MoveZerosToEnd
                     int temp = arr[i];
                     if (arr.Length > 0)
                     {
-                        int indexToReplace = arr.Length - 1;
-                        while (arr[indexToReplace] == 0)
+                        int currentIndex = i;
+                        while (currentIndex < arr.Length - 1)
                         {
-                            indexToReplace -= 1;
-                            if (indexToReplace <= 0)
-                            {
-                                break;
-                            }
+                            arr[currentIndex] = arr[currentIndex + 1];
+                            currentIndex++;
                         }
-
-                        if (i < indexToReplace)
-                        {
-                            arr[i] = arr[indexToReplace];
-                            arr[indexToReplace] = temp;
-                        }
+                        arr[^1] = temp;
                     }
                 } 
             }

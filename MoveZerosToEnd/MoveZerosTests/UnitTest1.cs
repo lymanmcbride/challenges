@@ -76,5 +76,16 @@ namespace MoveZerosTests
             // Assert
             Assert.AreEqual(controlArray, testArray);
         }
+        [Test]
+        public void ArraysNumberTwo()
+        {
+            // Arrange
+            int[] controlArray = new int[]{1,2,3,4,5,6,7,0,0,0,0};
+            int[] testArray = new int[]{1,0,2,0,3,4,5,6,0,7,0};
+            // Act
+            Kata.MoveZeroes(testArray);
+            // Assert
+            Assert.AreEqual(controlArray, testArray);
+        }
     }
 }
