@@ -1,0 +1,12 @@
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/bin/Debug/netcoreapp3.1/StripComments.deps.json
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/bin/Debug/netcoreapp3.1/StripComments.runtimeconfig.json
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/bin/Debug/netcoreapp3.1/StripComments.runtimeconfig.dev.json
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/bin/Debug/netcoreapp3.1/StripComments.dll
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/bin/Debug/netcoreapp3.1/StripComments.pdb
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.csproj.AssemblyReference.cache
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.AssemblyInfoInputs.cache
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.AssemblyInfo.cs
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.csproj.CoreCompileInputs.cache
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.dll
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.pdb
+/Users/lymanmcbride/OtherCodingProjects/challenges/StripComments/StripComments/StripComments/obj/Debug/netcoreapp3.1/StripComments.genruntimeconfig.cache
