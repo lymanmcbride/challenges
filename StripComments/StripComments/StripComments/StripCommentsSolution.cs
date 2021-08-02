@@ -12,28 +12,41 @@ namespace StripComments
         public static string StripComments(string text, string[] commentSymbols)
         {
             string returnText = "";
+            string line = "";
             bool add = true;
-            foreach (var character in text)
+            for (int i = 0; i < text.Length; i++)
             {
-                if (string.IsNullOrEmpty(returnText))
-                {
-                    
-                }
-                if (commentSymbols.Any(x=> x.Contains(character)))
+                if (commentSymbols.Any(x=> x.Contains(text[i])))
                 {
                     add = false;
                 }
                 else if (!add)
                 {
-                    if (character == '\n')
+                    if (text[i] == '\n')
                     {
+                        returnText += $"{line.Trim()}{text[i]}";
+                        line = "";
                         add = true;
                     }
+
                 }
-                if (add)
+                else
                 {
-                    returnText += character;
+                    line += text[i];
+                    if (text[i] == '\n')
+                    {
+                        returnText += $"{line.Trim()}{text[i]}";
+                        line = "";
+                        add = true;
+                    }
+
                 }
+                if (i == text.Length-1)
+                {
+                    returnText += line.Trim();
+                }
+
+
             }
             
             return returnText;
