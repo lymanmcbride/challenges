@@ -11,6 +11,11 @@ namespace StripComments
 
         public static string StripComments(string text, string[] commentSymbols)
         {
+            Console.WriteLine(text+"\n\n\n");
+            foreach (string symbol in commentSymbols)
+            {
+                Console.WriteLine(symbol);
+            }
             string returnText = "";
             string line = "";
             bool add = true;
@@ -24,32 +29,43 @@ namespace StripComments
                 {
                     if (text[i] == '\n')
                     {
-                        returnText += $"{line.Trim()}{text[i]}";
+                        line = TrimEnd(line);
+                        returnText += $"{line}{text[i]}";
                         line = "";
                         add = true;
                     }
-
                 }
                 else
                 {
-                    line += text[i];
                     if (text[i] == '\n')
                     {
-                        returnText += $"{line.Trim()}{text[i]}";
+                        line = TrimEnd(line);
+                        returnText += $"{line}{text[i]}";
                         line = "";
-                        add = true;
                     }
-
+                    else
+                    {
+                        line += text[i];
+                    }
                 }
                 if (i == text.Length-1)
                 {
                     returnText += line.Trim();
                 }
 
-
             }
             
             return returnText;
+        }
+
+        private static string TrimEnd(string line)
+        {
+            while (line[line.Length - 1] == ' ')
+            {
+                line = line.Substring(0, line.Length - 1);
+            }
+
+            return line;
         }
     }
 }
