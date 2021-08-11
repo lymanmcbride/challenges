@@ -22,7 +22,7 @@ namespace StripCommentsUnitTests
         [Test]
         public void StripComments_ShouldWork()
         {
-            Assert.AreEqual("BC\nBED\nB\nB", StripCommentsSolution.StripComments("BC \nBED \nB \nB", new string[]{"#", "$", "!", "-"}));
+            Assert.AreEqual("\n\n", StripCommentsSolution.StripComments("\n\n", new string[]{"#", "$", "!", "-"}));
         }
     }
 }

@@ -11,11 +11,6 @@ namespace StripComments
 
         public static string StripComments(string text, string[] commentSymbols)
         {
-            Console.WriteLine(text+"\n\n\n");
-            foreach (string symbol in commentSymbols)
-            {
-                Console.WriteLine(symbol);
-            }
             string returnText = "";
             string line = "";
             bool add = true;
@@ -60,10 +55,14 @@ namespace StripComments
 
         private static string TrimEnd(string line)
         {
-            while (line[line.Length - 1] == ' ')
+            if (line.Length > 0)
             {
-                line = line.Substring(0, line.Length - 1);
+                while (line[line.Length - 1] == ' ')
+                {
+                    line = line.Substring(0, line.Length - 1);
+                }
             }
+
 
             return line;
         }
