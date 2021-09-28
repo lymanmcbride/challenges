@@ -37,17 +37,28 @@ namespace ItemGroupingAndSumming
         // }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Item> input = new List<Item>
+            {
+                new Item("c1", "s1", 5),
+                new Item("c1", "s2", 10),
+                new Item("c1", "s1", 15)
+            };
+            var items = GroupAndSum(input);
+            Console.ReadLine();
         }
 
-        public List<Item> GroupAndSum(List<Item> items)
+        public static List<Item> GroupAndSum(List<Item> items)
         {
             var listOfGroups = items.GroupBy(
-                x => x.Category).ToList();
+                x => x.Selector);
             foreach (var grouping in listOfGroups)
             {
                 var l = grouping.ToList();
-                
+                foreach (var x in l)
+                {
+                    Console.WriteLine(x.Selector);
+
+                }
             }
             return items;
         }
