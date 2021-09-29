@@ -47,31 +47,13 @@ namespace ItemGroupingAndSumming
 
 
             };
-            var items = GroupAndSum(input);
+            var items = input.GroupBy(x => new { x.Category, x.Selector}).Select(grouping => new Item(grouping.Key.Category, grouping.Key.Selector, grouping.Sum(x => x.Amount))).ToList();
+
             foreach (var item in items)
             {
                 Console.WriteLine($"{item.Category}, {item.Selector}, {item.Amount}");
             }
             Console.ReadLine();
-        }
-
-        private static List<Item> GroupAndSum(List<Item> items)
-        {
-            List<Item> returnList = new List<Item>();
-
-            var listOfGroups = items.GroupBy(
-                x => new { x.Category, x.Selector});
-            
-            foreach (var grouping in listOfGroups)
-            {
-                var sum = grouping.Sum(x => x.Amount);
-                var newItem = new Item(grouping.Key.Category, grouping.Key.Selector, sum);
-
-                // var newItem = new Item(grouping.ToList()[0].Category, grouping.ToList()[0].Selector, sum);
-                returnList.Add(newItem);
-            }
-            
-            return returnList;
         }
     }
 }
