@@ -1,7 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f61648d_002D8fe4_002D4833_002Db840_002Dd86bd32b457a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GroupAndSum_ShouldReturnSumOfTwoGroups #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::48B688C5-DB75-47CD-86FB-E91A08DEDD4C::.NETCoreApp,Version=v3.1::ItemGroupingAndSummingUnitTests.Tests.GroupAndSum_ShouldReturnSumOfTwoGroups&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::48B688C5-DB75-47CD-86FB-E91A08DEDD4C::.NETCoreApp,Version=v3.1::ItemGroupingAndSummingUnitTests.Tests.GroupAndSum_ShouldReturnTwoGroupsAndSumAmounts&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::48B688C5-DB75-47CD-86FB-E91A08DEDD4C::.NETCoreApp,Version=v3.1::ItemGroupingAndSummingUnitTests.Tests.GroupAndSum_ShouldReturnSixGroupsAndSumAmounts&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::48B688C5-DB75-47CD-86FB-E91A08DEDD4C::.NETCoreApp,Version=v3.1::ItemGroupingAndSummingUnitTests.Tests.GroupAndSum_ShouldReturnZeroForNoItemsInList&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4290e5a6_002D7f95_002D4799_002Dba09_002D3df5a2df9ea5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GroupAndSum_ShouldReturnSumOfTwoGroups #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
