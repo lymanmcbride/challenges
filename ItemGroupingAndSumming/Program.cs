@@ -24,9 +24,6 @@ namespace ItemGroupingAndSumming
         //     new Item("c1", "s1", 20),
         //     new Item("c1", "s2", 10),
         // }
-        static void Main(string[] args)
-        {
-        }
 
         public static List<Item> GroupAndSum(List<Item> items)
         {
