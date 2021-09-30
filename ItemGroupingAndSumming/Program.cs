@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace ItemGroupingAndSumming
 {
@@ -25,7 +26,6 @@ namespace ItemGroupingAndSumming
         // }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
         }
 
         public static List<Item> GroupAndSum(List<Item> items)
