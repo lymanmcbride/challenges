@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace ItemGroupingAndSumming
 {
@@ -9,7 +7,8 @@ namespace ItemGroupingAndSumming
     {
         public static List<Item> GroupAndSum(List<Item> items)
         {
-            return items.GroupBy(x => new { x.Category, x.Selector}).Select(grouping => new Item(grouping.Key.Category, grouping.Key.Selector, grouping.Sum(x => x.Amount))).ToList();
+            return items.GroupBy(x => new { x.Category, x.Selector }).Select(grouping =>
+                new Item(grouping.Key.Category, grouping.Key.Selector, grouping.Sum(x => x.Amount))).ToList();
         }
     }
     public class Item
@@ -25,4 +24,6 @@ namespace ItemGroupingAndSumming
             Amount = amount;
         }
     }
+    
+    
 }
