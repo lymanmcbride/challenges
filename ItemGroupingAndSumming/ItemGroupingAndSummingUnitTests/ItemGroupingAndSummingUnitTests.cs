@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 using ItemGroupingAndSumming;
 
@@ -25,7 +26,7 @@ namespace ItemGroupingAndSummingUnitTests
         }
 
         [Test]
-        public void GroupAndSum_ShouldReturnSumOfTwoGroups()
+        public void GroupAndSum_ShouldReturnTwoGroupsAndSumAmounts()
         {
             List<Item> items = new List<Item>()
             {
@@ -33,20 +34,42 @@ namespace ItemGroupingAndSummingUnitTests
             };
 
             var sortedAndSummed = Program.GroupAndSum(items);
-            
-            // fix this
-            Assert.AreEqual(15, sortedAndSummed[0].Amount);
-            Assert.AreEqual("s1", sortedAndSummed[0].Selector);
 
+            Assert.AreEqual(15, sortedAndSummed[FindIndex(sortedAndSummed, _item1)].Amount);
+            Assert.AreEqual(20, sortedAndSummed[FindIndex(sortedAndSummed, _item2)].Amount);
+        }
+        
+        [Test]
+        public void GroupAndSum_ShouldReturnSixGroupsAndSumAmounts()
+        {
+            List<Item> items = new List<Item>()
+            {
+                _item1, _item1, _item1, 
+                _item2, _item2, _item2, _item2,
+                _item3, _item3,
+                _item4, _item4,
+                _item5, _item5,
+                _item6
+            };
+
+            var sortedAndSummed = Program.GroupAndSum(items);
+
+            AssertListMatches(sortedAndSummed);
         }
 
-        private bool ItemsAreEqual(Item item1, Item item2)
+        private void AssertListMatches(List<Item> sortedAndSummed)
         {
-            if (item1.Category == item2.Category && item1.Selector == item2.Selector)
-            {
-                return true;
-            }
-            else return false;
+            Assert.AreEqual(15, sortedAndSummed[FindIndex(sortedAndSummed, _item1)].Amount);
+            Assert.AreEqual(40, sortedAndSummed[FindIndex(sortedAndSummed, _item2)].Amount);
+            Assert.AreEqual(30, sortedAndSummed[FindIndex(sortedAndSummed, _item3)].Amount);
+            Assert.AreEqual(40, sortedAndSummed[FindIndex(sortedAndSummed, _item4)].Amount);
+            Assert.AreEqual(50, sortedAndSummed[FindIndex(sortedAndSummed, _item5)].Amount);
+            Assert.AreEqual(30, sortedAndSummed[FindIndex(sortedAndSummed, _item6)].Amount);
+        }
+
+        private int FindIndex(List<Item> sortedAndSummed, Item item)
+        {
+            return sortedAndSummed.FindIndex(x => x.Selector == item.Selector && x.Category == item.Category);
         }
     }
 }
