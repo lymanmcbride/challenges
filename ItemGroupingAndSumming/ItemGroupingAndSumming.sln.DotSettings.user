@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4d4b59c8_002D082c_002D460f_002D9cdf_002Da3828345a622/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GroupAndSum_ShouldReturnSumOfTwoGroups" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::C8680908-6501-4308-9D7D-685A84DB3C0A::.NETCoreApp,Version=v3.1::UnitTests.Tests.GroupAndSum_ShouldReturnSumOfTwoGroups&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd1083fc_002Dea9a_002D4536_002Db1ca_002D7d565dbe09e0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GroupAndSum_ShouldReturnSumOfTwoGroups #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::C8680908-6501-4308-9D7D-685A84DB3C0A::.NETCoreApp,Version=v3.1::UnitTests.Tests.GroupAndSum_ShouldReturnSumOfTwoGroups&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
