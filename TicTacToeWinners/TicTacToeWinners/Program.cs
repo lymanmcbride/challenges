@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TicTacToeWinners
 {
@@ -6,7 +7,8 @@ namespace TicTacToeWinners
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var serviceProvider = new ServiceCollection()
+                .AddScoped<ITicTacToe, TicTacToe>();
         }
     }
 }
