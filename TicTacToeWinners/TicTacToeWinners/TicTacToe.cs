@@ -10,18 +10,8 @@ namespace TicTacToeWinners
             bool winnerExists = false;
             Dictionary<char?, Dictionary<int,int>> results = new Dictionary<char?, Dictionary<int,int>>
             {
-                {'x', new Dictionary<int,int>
-                {
-                    {0, 0},
-                    {1,0},
-                    {2,0}
-                }},
-                {'o', new Dictionary<int,int>
-                {
-                    {1, 0},
-                    {2,0},
-                    {0,0}
-                }}
+                {'x', new Dictionary<int,int>() },
+                {'o', new Dictionary<int,int>() }
             };
             foreach (var row in board)
             {
@@ -29,19 +19,26 @@ namespace TicTacToeWinners
                 {
                     if (row[i] != null)
                     {
-                        results[row[i]][i]++;
+                        if (!results[row[i]].ContainsKey(i))
+                            results[row[i]].Add(i, 1);
+                        else
+                            results[row[i]][i]++;
+                        
                         if (results[row[i]][i] == 3)
                         {
                             winnerExists = true;
                             break;
                         }
 
-                        if (results[row[i]][0] > 0 &&
-                            results[row[i]][1] > 0 &&
-                            results[row[i]][2] > 0)
+                        for (int j = 0; j < row.Length; j++)
                         {
-                            winnerExists = true;
-                            break;
+                            if (results[row[i]].ContainsKey(j))
+                            {
+                                if (results[row[i]][j] > 0)
+                                    continue;
+                                winnerExists = true;
+                                break;
+                            }
                         }
                     }
                 }
