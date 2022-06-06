@@ -21,7 +21,7 @@ namespace TestProject1
             {
                 throw new FizzBuzzException("Number is not divisible by 3 or 5");
             }
-
+            
             return toReturn;
         }
     }
