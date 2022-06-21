@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace LinkedListPalindrome
@@ -38,10 +40,27 @@ namespace LinkedListPalindrome
         }
         public bool IsPalindrome(ListNode head)
         {
-            bool isPalindrome = false;
-            while (head.next != null)
+            bool isPalindrome = true;
+            var reverseList = new Stack<int>();
+            int length = 0;
+            ListNode tempHead = head;
+            while (tempHead != null)
             {
-                
+                reverseList.Push(tempHead.val);
+                length++;
+                tempHead = tempHead.next;
+            }
+
+            var middle = length / 2;
+            while (length >= middle && length > 0)
+            {
+                if (head.val != reverseList.Pop())
+                {
+                    isPalindrome = false;
+                }
+
+                head = head.next;
+                length--;
             }
             return isPalindrome;
         }
