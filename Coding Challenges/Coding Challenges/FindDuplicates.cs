@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace Coding_Challenges
+namespace CodingChallenges
 {
-    public class Tests
+    public class DuplicateFinder
     {
         [Test]
         public void FindDuplicates_WhenCalledWithOneDuplicateAndNoOtherNumbers_ReturnsDuplicateNumber()
