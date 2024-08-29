@@ -1,6 +1,6 @@
 namespace SwitchEveryTwoInLinkedList;
 
-public class NodeSwitcher
+public static class NodeSwitcher
 {
     public static Node? SwitchNodes(Node? head)
     {
